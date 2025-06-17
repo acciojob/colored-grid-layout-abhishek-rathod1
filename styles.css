@@ -2,12 +2,12 @@
 #grid{
 	display: grid;
 	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;	
-	grid-template-rows: 124px 124px 124px 124px;	
-	grid-template-areas: "div1 div1 div1 div1"
+	grid-template-rows: 124px 124px 124px 124px 124px;	
+	/* grid-template-areas: "div1 div1 div1 div1"
 							"div2 div3 div4 div4"
 							"div2 div5 div5 div6"
 							"div2 div7 div8 div9"
-							"div2 div10 div10 div10";
+							"div2 div10 div10 div10"; */
 	gap: 10px;
 }
 .box{
@@ -17,32 +17,43 @@
 	/* height: 200px; */
 }
 .div1{
-	grid-area: div1;
+	/* grid-area: div1; */
+	grid-column: 1/5;
 }
 .div2{
-	grid-area: div2;
+	/* grid-area: div2; */
+	/* grid-column: */
+	grid-row: 2/6;
 }
 .div3{
-	grid-area: div3;
+	/* grid-area: div3; */
+	grid-column: 2/3;
 }
 .div4{
-	grid-area: div4;
+	/* grid-area: div4; */
+	grid-column: 3/5;
 }
 .div5{
-	grid-area: div5;
+	/* grid-area: div5; */
+	grid-column: 2/4;
 }
 .div6{
-	grid-area: div6;
+	/* grid-area: div6; */
+	grid-column: 4/5;
 }
 .div7{
-	grid-area: div7;
+	/* grid-area: div7; */
+	grid-column: 2/3;
 }
 .div8{
-	grid-area: div8;
+	/* grid-area: div8; */
+	grid-column: 3/4;
 }
 .div9{
-	grid-area: div9;
+	/* grid-area: div9; */
+	grid-column: 4/5;
 }
 .div10{
-	grid-area: div10;
+	/* grid-area: div10; */
+	grid-column: 2/5;
 }
